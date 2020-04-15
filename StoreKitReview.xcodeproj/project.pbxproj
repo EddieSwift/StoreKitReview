@@ -13,6 +13,8 @@
 		2C6892D1244771E100F8CA71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6892D0244771E100F8CA71 /* Assets.xcassets */; };
 		2C6892D4244771E100F8CA71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6892D3244771E100F8CA71 /* Preview Assets.xcassets */; };
 		2C6892D7244771E100F8CA71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6892D5244771E100F8CA71 /* LaunchScreen.storyboard */; };
+		2C6892DF244771FF00F8CA71 /* StoreReviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6892DE244771FF00F8CA71 /* StoreReviewManager.swift */; };
+		2C6892E12447726700F8CA71 /* Date+DaysAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6892E02447726700F8CA71 /* Date+DaysAgo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2C6892D3244771E100F8CA71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2C6892D6244771E100F8CA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C6892D8244771E100F8CA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C6892DE244771FF00F8CA71 /* StoreReviewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreReviewManager.swift; sourceTree = "<group>"; };
+		2C6892E02447726700F8CA71 /* Date+DaysAgo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DaysAgo.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		2C6892C9244771DE00F8CA71 /* StoreKitReview */ = {
 			isa = PBXGroup;
 			children = (
+				2C6892E3244772A900F8CA71 /* Managers */,
+				2C6892E22447729200F8CA71 /* Extensions */,
 				2C6892CA244771DE00F8CA71 /* AppDelegate.swift */,
 				2C6892CC244771DE00F8CA71 /* SceneDelegate.swift */,
 				2C6892CE244771DE00F8CA71 /* ContentView.swift */,
@@ -73,6 +79,22 @@
 				2C6892D3244771E100F8CA71 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C6892E22447729200F8CA71 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2C6892E02447726700F8CA71 /* Date+DaysAgo.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2C6892E3244772A900F8CA71 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2C6892DE244771FF00F8CA71 /* StoreReviewManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +169,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C6892CB244771DE00F8CA71 /* AppDelegate.swift in Sources */,
+				2C6892DF244771FF00F8CA71 /* StoreReviewManager.swift in Sources */,
+				2C6892E12447726700F8CA71 /* Date+DaysAgo.swift in Sources */,
 				2C6892CD244771DE00F8CA71 /* SceneDelegate.swift in Sources */,
 				2C6892CF244771DE00F8CA71 /* ContentView.swift in Sources */,
 			);
